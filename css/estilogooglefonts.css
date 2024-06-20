@@ -1,0 +1,177 @@
+* {border-radius: 1px;
+}
+body {background-color: #080048;
+        font-family: 'Saira';
+}
+p {font-family: 'Saira';
+}
+#contenedor {width: 100%;
+            margin: 0px auto;
+            background-color: #000000;
+}
+header {background-color: #000000;
+}
+header img {width: 100%;
+	        vertical-align: bottom;
+            background-color: #080048;
+}
+nav {background-color: #303030;
+    display: block;
+}
+.navdiv {width: 140px;
+        display: inline-block;
+        text-align: center;
+        background-color: #303030;
+}
+.button_slide1 {color: #ffffff;
+        border-radius: 0px;
+        padding: 15px 15px;
+        display: inline-block;
+        font-family: 'Exo 2';
+        font-size: 17px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #ffffff;
+        -webkit-transition: ease-out 0.6s;
+        -moz-transition: ease-out 0.6s;
+        transition: ease-out 0.6s;
+}
+.slide_down:hover {box-shadow: inset 0 100px 0 0 #ffffff;
+                        color: #080048;
+}
+#navshadow {width: 364px;
+        margin: 50px auto 0 auto;
+        background-color: #303030;
+        display: inline;
+}
+nav a {color: #effdff;
+        width: 120px;
+        background-color: #303030;
+        padding: 15px 10px;
+        cursor: pointer;
+        border-top: #ffffff 0.3em solid;
+        text-decoration: none;
+}
+main {display: flex;
+}
+aside {width: 10%;
+	padding: 20px;
+	background-color: #8c8c8c
+}
+.button_slide {color: #ffffff;
+                border: 0px solid #080048;
+                border-radius: 0px;
+                padding: 18px 30px;
+                display: inline-block;
+                font-family: 'Exo 2';
+                font-size: 15px;
+                text-decoration: none;
+                letter-spacing: 0.5px;
+                cursor: pointer;
+                box-shadow: inset 0 0 0 0 #080048;
+                -webkit-transition: ease-out 0.4s;
+                -moz-transition: ease-out 0.4s;
+                transition: ease-out 0.4s;
+}
+.slide_right:hover {box-shadow: inset 200px 0 0 0 #080048;
+                        padding-right: 50px;
+}
+#outer {width: 364px;
+        margin: 50px auto 0 auto;
+        text-align: left;
+        background-color: #8c8c8c;
+}
+aside h3 {font-weight: bold;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+        background-color: #080048;
+}
+aside a {font-family: 'Saira';
+        color: #ffffff;
+        padding: 10px 15px;
+	display: block;
+        background-color: #8c8c8c;
+        text-decoration: none;
+}
+aside p {font-family: 'Exo 2';
+        font-weight: normal;
+        margin: 0px 10px;
+        background-color: #8c8c8c;
+        text-align: justify;
+}
+aside p strong {font-family: 'Exo 2';
+                background-color: #8c8c8c;
+}
+section {width: 80%;
+        padding: 5px;
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #dadada;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+}
+section h1 {letter-spacing: 0.5px;
+            color: #303030;
+            margin: 10px auto;
+            padding: 0px 0px;
+            background-color: #dadada;
+            text-align: center;
+}
+section p {text-align: center;
+        color: #303030;
+        margin: 10px 40px;
+        padding: 10px;
+        background-color: #ffffff;
+        font-weight: bold;
+}
+section figure {width: 80%;
+	        margin: 10px auto;
+                padding: 10px;
+	        background-color: #ffffff;
+                display: block;
+                flex-direction: column;
+                justify-content: space-around;
+}
+section figure img {width: 80%;
+	            margin: 10px auto;
+	            display: block;
+                    border: 1px solid #080048
+}
+section figure figcaption {background-color: #ffffff;
+                        font-family: 'Exo';
+                        font-weight: bold;
+                        padding: 10px;
+}
+section figure h4 {color: #303030;
+                   margin: 10px 50px;
+	           text-align: center;
+                   display: block;
+                   background-color: #ffffff;
+}
+section figure a {text-decoration: none;
+}
+section figure p {font-family: 'Exo';
+                font-weight: 300;
+                padding: 10px;
+}
+.section_img {text-align: center;
+                background-color: #dadada;
+}
+footer {padding: 10px;
+	    text-align: center;
+        background-color: #303030;
+}
+footer p {font-family: 'Lucida Sans';
+        font-size: 10pt;
+        color: #ffffff;
+        background-color: #303030;
+        text-decoration: none;
+}
+footer img {width: 50px;
+            padding: 10px 10px 0px 10px;
+            background-color: #303030;
+            vertical-align: bottom;
+}
